@@ -49,6 +49,7 @@ def get_average_age_for_season(data, season)
         value.each do |info|
           age += info["age"].to_f   #returns "age" as floating integers and adds into age
         end
+        
   
   
   
