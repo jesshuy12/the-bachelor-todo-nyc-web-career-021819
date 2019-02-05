@@ -48,7 +48,7 @@ def get_average_age_for_season(data, season)
       if key == season              #iterating down to the age values
         value.each do |info|
           age += info["age"].to_f   #returns "age" as floating integers and adds into age
-          age = age / value.length
+          age = age / value.length  #value.length gets value as a integer of both girls
         end
         
   
