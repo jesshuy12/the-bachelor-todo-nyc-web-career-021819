@@ -51,14 +51,5 @@ def get_average_age_for_season(data, season)
           age = age / value.length  #value.length gets value as a integer of both girls
         end
       end
-      
-        
-  
-  
-  
-  
-  
-  
-  
-  
+      return age.round               #.round to round .5 up
 end
