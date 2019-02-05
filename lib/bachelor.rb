@@ -43,9 +43,9 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  age = 0                           #creating age = 0, instead of array so its an integer
+  age = 0                           #creating variable = 0, instead of array so its an integer
     data.each do |key, value|
-      if key == season
+      if key == season              #iterating down to the age values
         value.each do |info|
           age = info["age"].to_f
   
